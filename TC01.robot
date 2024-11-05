@@ -8,7 +8,7 @@ TC01Test
     Open Browser    https://www.google.com/  chrome
     Input Text    name:q    location
     Click Button    name:ancd
-    Sleep    10
+    Sleep    1
     Close Browser
 
 
