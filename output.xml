@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.11.4 on win32)" generated="2024-10-28T17:57:14.120630" rpa="false" schemaversion="5">
+<suite id="s1" name="TC01" source="C:\Users\arunb\PycharmProjects\RobotFramework\TC01.robot">
+<test id="s1-t1" name="TC01Test" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-28T17:57:14.260316" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-28T17:57:14.260316" elapsed="2.101615"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-28T17:57:16.361931" level="INFO">Typing text 'location' into text field 'name:q'.</msg>
+<msg time="2024-10-28T17:57:16.468494" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-10-28T17:57:16.468494" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF72DC93AB5+28005]
+	(No symbol) [0x00007FF72DBF83B0]
+	(No symbol) [0x00007FF72DA95639]
+	(No symbol) [0x00007FF72DADF5D4]
+	(No symbol) [0x00007FF72DADD7D6]
+	(No symbol) [0x00007FF72DB0BA3A]
+	(No symbol) [0x00007FF72DAD9246]
+	(No symbol) [0x00007FF72DB0BC50]
+	(No symbol) [0x00007FF72DB2B8B3]
+	(No symbol) [0x00007FF72DB0B7E3]
+	(No symbol) [0x00007FF72DAD75C8]
+	(No symbol) [0x00007FF72DAD8731]
+	GetHandleVerifier [0x00007FF72DF8643D+3118829]
+	GetHandleVerifier [0x00007FF72DFD6C90+3448640]
+	GetHandleVerifier [0x00007FF72DFCCF0D+3408317]
+	GetHandleVerifier [0x00007FF72DD5A40B+841403]
+	(No symbol) [0x00007FF72DC0340F]
+	(No symbol) [0x00007FF72DBFF484]
+	(No symbol) [0x00007FF72DBFF61D]
+	(No symbol) [0x00007FF72DBEEB79]
+	BaseThreadInitThunk [0x00007FFA74E8259D+29]
+	RtlUserThreadStart [0x00007FFA7580AF38+40]
+</msg>
+<arg>name:q</arg>
+<arg>location</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2024-10-28T17:57:16.361931" elapsed="0.108659">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF72DC93AB5+28005]
+	(No symbol) [0x00007FF72DBF83B0]
+	(No symbol) [0x00007FF72DA95639]
+	(No symbol) [0x00007FF72DADF5D4]
+	(No symbol) [0x00007FF72DADD7D6]
+	(No symbol) [0x00007FF72DB0BA3A]
+	(No symbol) [0x00007FF72DAD9246]
+	(No symbol) [0x00007FF72DB0BC50]
+	(No symbol) [0x00007FF72DB2B8B3]
+	(No symbol) [0x00007FF72DB0B7E3]
+	(No symbol) [0x00007FF72DAD75C8]
+	(No symbol) [0x00007FF72DAD8731]
+	GetHandleVerifier [0x00007FF72DF8643D+3118829]
+	GetHandleVerifier [0x00007FF72DFD6C90+3448640]
+	GetHandleVerifier [0x00007FF72DFCCF0D+3408317]
+	GetHandleVerifier [0x00007FF72DD5A40B+841403]
+	(No symbol) [0x00007FF72DC0340F]
+	(No symbol) [0x00007FF72DBFF484]
+	(No symbol) [0x00007FF72DBFF61D]
+	(No symbol) [0x00007FF72DBEEB79]
+	BaseThreadInitThunk [0x00007FFA74E8259D+29]
+	RtlUserThreadStart [0x00007FFA7580AF38+40]
+</status>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>name:ancd</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-10-28T17:57:16.470590" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-10-28T17:57:16.470590" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-10-28T17:57:16.471481" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-10-28T17:57:14.259277" elapsed="2.212204">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF72DC93AB5+28005]
+	(No symbol) [0x00007FF72DBF83B0]
+	(No symbol) [0x00007FF72DA95639]
+	(No symbol) [0x00007FF72DADF5D4]
+	(No symbol) [0x00007FF72DADD7D6]
+	(No symbol) [0x00007FF72DB0BA3A]
+	(No symbol) [0x00007FF72DAD9246]
+	(No symbol) [0x00007FF72DB0BC50]
+	(No symbol) [0x00007FF72DB2B8B3]
+	(No symbol) [0x00007FF72DB0B7E3]
+	(No symbol) [0x00007FF72DAD75C8]
+	(No symbol) [0x00007FF72DAD8731]
+	GetHandleVerifier [0x00007FF72DF8643D+3118829]
+	GetHandleVerifier [0x00007FF72DFD6C90+3448640]
+	GetHandleVerifier [0x00007FF72DFCCF0D+3408317]
+	GetHandleVerifier [0x00007FF72DD5A40B+841403]
+	(No symbol) [0x00007FF72DC0340F]
+	(No symbol) [0x00007FF72DBFF484]
+	(No symbol) [0x00007FF72DBFF61D]
+	(No symbol) [0x00007FF72DBEEB79]
+	BaseThreadInitThunk [0x00007FFA74E8259D+29]
+	RtlUserThreadStart [0x00007FFA7580AF38+40]
+</status>
+</test>
+<status status="FAIL" start="2024-10-28T17:57:14.121645" elapsed="2.350850"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC01">TC01</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-10-28T17:57:14.118495" level="ERROR">Error in file 'C:\Users\arunb\PycharmProjects\RobotFramework\TC01.robot' on line 15: Unrecognized section header '*** Keyboards ***'. Valid sections: 'Settings', 'Variables', 'Test Cases', 'Tasks', 'Keywords' and 'Comments'.</msg>
+</errors>
+</robot>
